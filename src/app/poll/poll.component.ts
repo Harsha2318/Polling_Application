@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-poll',
-  imports: [],
+  standalone: true,
   templateUrl: './poll.component.html',
-  styleUrl: './poll.component.css',
+  styleUrl: './poll.component.css'
 })
 export class PollComponent {}
